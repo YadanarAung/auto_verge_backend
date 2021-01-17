@@ -50,3 +50,16 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+
+
+## Project Deployment Instruction 
+- download from git
+- composer install
+- create a .env file and copy from .env.example 
+- change mysql config (DB_HOST, DB_PORT, DB_DATABASE, DB_USERNAME, DB_PASSWORD) with your environment.
+- php artisan migrate
+- php artisan db:seed
+- run "php artisan serve" under the project folder.
+- Login account (username => admin@gmail.com, password=> password)
